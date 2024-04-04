@@ -6,3 +6,148 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arial';
+    
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.list-nav{
+    position: fixed;
+    right: 0;
+    margin: 15px 25px;
+    display: flex;
+    gap: 25px;
+    
+}
+
+.list-nav li{
+    float: left; 
+}
+
+.list-nav li,a{
+    text-decoration: none;
+    list-style: none; 
+}
+
+.background{
+    color: white;
+    height: 100vh;
+    background-image: url(/images/landing.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.background-title{
+    letter-spacing: 3px;
+    font-size:3.8em;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+    position: relative;
+    bottom:50px ;
+
+}
+
+.background-paragraph{
+    position: absolute;
+    font-size: 1.2em;
+    letter-spacing: 2.5px;
+    text-align:center ;
+    color: #ffffffc9;
+}
+
+
+.main{
+    text-align: center;
+    margin-bottom: 40px;   
+}
+
+.title-main{
+    display: inline-flex;
+    border-bottom: 3px solid #00B172;
+    margin: 40px 0 60px 0;
+}
+
+.section-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link-section{
+    height: 200px;
+    width: 250px;
+}
+
+.link-section .img1, .img2, .img3 {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.link-section .img2{
+    margin-bottom: 32px;
+}
+
+.title-links{
+   color: #00B172;
+   text-align: center;
+   margin-bottom: 20px;
+   margin: 0;
+}
+
+p{
+    opacity:60%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50pxpx;
+    letter-spacing: 2px;
+    padding:60px;
+    background:#00B172 ;
+    color: #fff;
+}
+
+.title-footer{
+    
+    display: inline-flex;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.subtitle-footer{
+    margin:40px 0px 30px 0;
+}
+
+.logo-footer{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.captura{
+    height:80vh;
+
+}
